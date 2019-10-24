@@ -1,31 +1,47 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+# Compiled class file
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# eclipse ignore
+.settings/
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
+# idea ignore
+.idea/
 *.ipr
+*.iml
+*.iws
+target
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
 
-### VS Code ###
-.vscode/
+# system ignore
+.DS_Store
+Thumbs.db
+
+# Maven ignore
+.flattened-pom.xml
